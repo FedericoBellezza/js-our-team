@@ -27,13 +27,45 @@
 	</head>
 
 	<body>
-		<div class="container-xxl py-5 text-center">
+		<div class="container py-5 text-center">
 			<h1 class="text-danger">Meet our Team</h1>
 			<h2 class="h5 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex provident magnam mollitia distinctio at ab odio qui eum eaque, soluta aspernatur deserunt libero neque tempore ad. Ipsa nobis fuga consequatur.</h2>
 
-			<div id="card-container" class="row"></div>
-		</div>
+			<!-- - card container -->
+			<div id="card-container" class="row mb-5"></div>
 
+			<!-- - add new member -->
+			<h2 class="mb-5">Add a new member</h2>
+			<form class="row" id="form">
+				<div class="col-3">
+					<div class="form-floating mb-3">
+						<input type="text" class="form-control" id="form-name" />
+						<label for="form-name">Fullname</label>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="form-floating mb-3">
+						<input type="text" class="form-control" id="form-role" />
+						<label for="form-role">Role</label>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="form-floating mb-3">
+						<input type="email" class="form-control" id="form-email" />
+						<label for="form-email">Email</label>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="form-floating mb-3">
+						<input type="text" class="form-control" id="form-img" />
+						<label for="form-img">Image</label>
+					</div>
+				</div>
+				<div class="col-12 text-center">
+					<button id="form-btn" class="btn btn-primary w-50">Add member</button>
+				</div>
+			</form>
+		</div>
 		<!-- - BOOTSTRAP JS -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 		<!-- - CUSTOM JS -->
